@@ -1,0 +1,11 @@
+# Inicializar o repositório Git
+git init
+
+# Criar o arquivo example.txt com o conteúdo corrigido
+echo "Olá, mundo!\nEsta é uma linha de exemplo.\nTudo está funcionando perfeitamente." > example.txt
+
+# Adicionar o arquivo ao repositório
+git add example.txt
+
+# Fazer um commit com uma mensagem
+git commit -m "Primeiro commit"
